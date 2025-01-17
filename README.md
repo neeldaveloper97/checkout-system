@@ -1,8 +1,18 @@
-# React + Vite
+# CheckoutSystem Project README
+Check the live project at 'https://checkout-system-kappa.vercel.app/'
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Running the Project
 
-Currently, two official plugins are available:
+To run:
+npm install
+npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application will be available at `http://localhost:5173/`.
+
+## Project Structure
+
+src/
+├── components/     # Reusable React components
+├── constants/      # dummy product data
+├── types/          # typscript types define
+├── utils.ts/       # utility function
